@@ -1,0 +1,181 @@
+:root {
+    --color-primary: #101010;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #131312;
+    --color-button-hover: #444444;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+    background-color: white;
+    height: 600px;
+    margin: 0;
+}
+
+.header {
+    background-color: #ffd000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    color: var(--color-primary);
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.header-banner img {
+    max-width: 600px;
+    margin: 0px 80px;
+}
+
+
+.input-section {
+    background-color: #ffd000;
+    padding: 50px 100px;
+    border-radius: 10px;
+    margin: 0px 80px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+
+button {
+    padding: 15px 30px;
+    font-family: "Archivo", sans-serif; 
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 10px 10px 0;
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+.button-reset {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    border-radius: 10px;
+}
+
+.button-reset:hover {
+    background-color: rgb(164, 159, 159);
+}
+
+
+.name-list {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Archivo", sans-serif; 
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.nome-item {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #101010;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 10px;
+}
+
+.button-draw:hover {
+    background-color: rgb(164, 159, 159);
+}
+
+.footer {
+    background-color: var(--color-secondary);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    background-color: #ffd000;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer a {
+    color: var(--color-text);
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
